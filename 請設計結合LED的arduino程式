@@ -23,7 +23,7 @@ void loop()
 
         digitalWrite(ledPins[i], HIGH);
 
-        delay(1000);
+        delay(1500);
     }    
 
     // 循序關閉每一個LED燈
@@ -32,7 +32,7 @@ void loop()
 
         digitalWrite(ledPins[i], LOW);
 
-        delay(1000);
+        delay(1500);
     }    
 
 }
